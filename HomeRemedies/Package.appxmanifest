@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="4598JayKiranShah.HomeMedications" Publisher="CN=BDFF21BD-8E99-43EA-93EC-54002645CBF7" Version="1.0.0.3" />
+  <Properties>
+    <DisplayName>Home Medications</DisplayName>
+    <PublisherDisplayName>Zest Solutions</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="HomeRemedies.App">
+      <VisualElements DisplayName="Home Medications" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="HomeRemedies" ForegroundText="light" BackgroundColor="#464646">
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="Assets\SplashScreen.png" />
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

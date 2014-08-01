@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{61CDBCC6-5443-4CA6-B79B-750151C98AF7}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HomeRemedies</RootNamespace>
+    <AssemblyName>HomeRemedies</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PackageCertificateKeyFile>HomeRemedies_StoreKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateThumbprint>0AF45FE6D38BB932C7F401DD453EA5E1D31F6E34</PackageCertificateThumbprint>
+    <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Home.xaml.cs">
+      <DependentUpon>Home.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ItemsPage.xaml.cs">
+      <DependentUpon>ItemsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SplitPage.xaml.cs">
+      <DependentUpon>SplitPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DataModel\SampleDataSource.cs" />
+    <Compile Include="Common\BindableBase.cs" />
+    <Compile Include="Common\BooleanToVisibilityConverter.cs" />
+    <Compile Include="Common\BooleanNegationConverter.cs" />
+    <Compile Include="Common\LayoutAwarePage.cs" />
+    <Compile Include="Common\RichTextColumns.cs" />
+    <Compile Include="Common\SuspensionManager.cs" />
+    <Compile Include="Zest.xaml.cs">
+      <DependentUpon>Zest.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <None Include="Common\ReadMe.txt" />
+    <None Include="HomeRemedies_StoreKey.pfx" />
+    <None Include="HomeRemedies_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\acne.png" />
+    <Content Include="Assets\allergies-all-off.jpg" />
+    <Content Include="Assets\allergies.jpg" />
+    <Content Include="Assets\almonds.jpg" />
+    <Content Include="Assets\aloe vera.jpg" />
+    <Content Include="Assets\anemia.jpg" />
+    <Content Include="Assets\angina.jpg" />
+    <Content Include="Assets\apple.jpg" />
+    <Content Include="Assets\apple_1.jpg" />
+    <Content Include="Assets\arthritis.jpg" />
+    <Content Include="Assets\asthma-blog.jpg" />
+    <Content Include="Assets\asthma.jpg" />
+    <Content Include="Assets\athlete%27s foot.jpg" />
+    <Content Include="Assets\ayurveda-spices.jpg" />
+    <Content Include="Assets\ayurveda-spices1.jpg" />
+    <Content Include="Assets\back pain.jpg" />
+    <Content Include="Assets\bad breath.jpg" />
+    <Content Include="Assets\baking soda.jpg" />
+    <Content Include="Assets\baldness.jpg" />
+    <Content Include="Assets\banana.jpg" />
+    <Content Include="Assets\basil.jpg" />
+    <Content Include="Assets\bed wetting.jpg" />
+    <Content Include="Assets\beetroot.png" />
+    <Content Include="Assets\bitter gourd.jpg" />
+    <Content Include="Assets\black eye.jpg" />
+    <Content Include="Assets\blister.jpg" />
+    <Content Include="Assets\boil.jpg" />
+    <Content Include="Assets\bruise.jpg" />
+    <Content Include="Assets\burns.jpg" />
+    <Content Include="Assets\cabbage.jpg" />
+    <Content Include="Assets\cardamom.jpg" />
+    <Content Include="Assets\carrot1.jpg" />
+    <Content Include="Assets\castoroil.jpg" />
+    <Content Include="Assets\cherry.jpg" />
+    <Content Include="Assets\chicken pox.jpg" />
+    <Content Include="Assets\cilantro.jpg" />
+    <Content Include="Assets\cinnamon_bark.jpg" />
+    <Content Include="Assets\clove.jpg" />
+    <Content Include="Assets\coconut.jpg" />
+    <Content Include="Assets\cold sores.jpg" />
+    <Content Include="Assets\comman cold.jpg" />
+    <Content Include="Assets\conjuctivitis.jpg" />
+    <Content Include="Assets\constipation.jpg" />
+    <Content Include="Assets\coriandder.jpg" />
+    <Content Include="Assets\coriander_1.jpg" />
+    <Content Include="Assets\cough.jpg" />
+    <Content Include="Assets\cranberry.jpg" />
+    <Content Include="Assets\Cucumber.jpg" />
+    <Content Include="Assets\Cumin_seeds.jpg" />
+    <Content Include="Assets\currants.jpg" />
+    <Content Include="Assets\currants_1.jpg" />
+    <Content Include="Assets\dandruff.jpg" />
+    <Content Include="Assets\dates.jpg" />
+    <Content Include="Assets\dates_1.jpg" />
+    <Content Include="Assets\dengue.jpg" />
+    <Content Include="Assets\depression1.jpg" />
+    <Content Include="Assets\Diabetes.jpg" />
+    <Content Include="Assets\dry lips.jpg" />
+    <Content Include="Assets\dry skin.jpg" />
+    <Content Include="Assets\egg.jpg" />
+    <Content Include="Assets\fatigue1.jpg" />
+    <Content Include="Assets\fenugreek-seeds.jpg" />
+    <Content Include="Assets\fever.jpg" />
+    <Content Include="Assets\garlic.jpg" />
+    <Content Include="Assets\general.png" />
+    <Content Include="Assets\ginger.jpg" />
+    <Content Include="Assets\gooseberry.jpg" />
+    <Content Include="Assets\hangover.jpg" />
+    <Content Include="Assets\hbc.jpg" />
+    <Content Include="Assets\headache.jpg" />
+    <Content Include="Assets\honey.jpg" />
+    <Content Include="Assets\honey_1.jpg" />
+    <Content Include="Assets\jet lag.jpg" />
+    <Content Include="Assets\lemon-essential-oil.png" />
+    <Content Include="Assets\Lemon.jpg" />
+    <Content Include="Assets\lemon.png" />
+    <Content Include="Assets\licorice-root.jpg" />
+    <Content Include="Assets\licorice.jpg" />
+    <Content Include="Assets\Logo.png" />
+    <Content Include="Assets\mango.jpg" />
+    <Content Include="Assets\milk products.jpg" />
+    <Content Include="Assets\milkproducts.jpg" />
+    <Content Include="Assets\mustard.jpg" />
+    <Content Include="Assets\neem.jpg" />
+    <Content Include="Assets\oat.jpg" />
+    <Content Include="Assets\oat1.jpg" />
+    <Content Include="Assets\onion.jpg" />
+    <Content Include="Assets\orange.jpg" />
+    <Content Include="Assets\orange_1.jpg" />
+    <Content Include="Assets\papaya.jpg" />
+    <Content Include="Assets\petroleum-jelly-moisturizer-1.jpg" />
+    <Content Include="Assets\petroleum.jpg" />
+    <Content Include="Assets\pineapple.jpg" />
+    <Content Include="Assets\potato.jpg" />
+    <Content Include="Assets\red-Apple.jpg" />
+    <Content Include="Assets\sandalwood.jpg" />
+    <Content Include="Assets\seasame.jpg" />
+    <Content Include="Assets\SmallLogo.png" />
+    <Content Include="Assets\spinach.jpg" />
+    <Content Include="Assets\SplashScreen.png" />
+    <Content Include="Assets\StoreLogo.png" />
+    <Content Include="Assets\LightGray.png" />
+    <Content Include="Assets\MediumGray.png" />
+    <Content Include="Assets\DarkGray.png" />
+    <Content Include="Assets\tea.jpg" />
+    <Content Include="Assets\tree-neem.jpg" />
+    <Content Include="Assets\turmeric.jpg" />
+    <Content Include="Assets\vinegar.jpg" />
+    <Content Include="Assets\walnut 1.jpg" />
+    <Content Include="Assets\walnuts.jpg" />
+    <None Include="Package.StoreAssociation.xml" />
+    <Page Include="Zest.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Home.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="Common\StandardStyles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ItemsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SplitPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0' ">
+    <VisualStudioVersion>11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

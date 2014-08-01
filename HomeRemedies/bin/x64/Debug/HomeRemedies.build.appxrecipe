@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>JAYSHAH</Machine>
+    <WindowsUser>Jay Shah</WindowsUser>
+    <SolutionConfiguration>Debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\bin\x64\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\bin\x64\Debug\HomeRemedies.exe">
+      <PackagePath>HomeRemedies.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\bin\x64\Debug\HomeRemedies.pdb">
+      <PackagePath>HomeRemedies.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\acne.png">
+      <PackagePath>Assets\acne.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\beetroot.png">
+      <PackagePath>Assets\beetroot.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\general.png">
+      <PackagePath>Assets\general.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\lemon-essential-oil.png">
+      <PackagePath>Assets\lemon-essential-oil.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\lemon.png">
+      <PackagePath>Assets\lemon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\allergies-all-off.jpg">
+      <PackagePath>Assets\allergies-all-off.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\allergies.jpg">
+      <PackagePath>Assets\allergies.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\almonds.jpg">
+      <PackagePath>Assets\almonds.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\aloe vera.jpg">
+      <PackagePath>Assets\aloe vera.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\anemia.jpg">
+      <PackagePath>Assets\anemia.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\angina.jpg">
+      <PackagePath>Assets\angina.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\apple.jpg">
+      <PackagePath>Assets\apple.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\apple_1.jpg">
+      <PackagePath>Assets\apple_1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\arthritis.jpg">
+      <PackagePath>Assets\arthritis.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\asthma-blog.jpg">
+      <PackagePath>Assets\asthma-blog.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\asthma.jpg">
+      <PackagePath>Assets\asthma.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\athlete%27s foot.jpg">
+      <PackagePath>Assets\athlete%27s foot.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\ayurveda-spices.jpg">
+      <PackagePath>Assets\ayurveda-spices.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\ayurveda-spices1.jpg">
+      <PackagePath>Assets\ayurveda-spices1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\back pain.jpg">
+      <PackagePath>Assets\back pain.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\bad breath.jpg">
+      <PackagePath>Assets\bad breath.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\baking soda.jpg">
+      <PackagePath>Assets\baking soda.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\baldness.jpg">
+      <PackagePath>Assets\baldness.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\banana.jpg">
+      <PackagePath>Assets\banana.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\basil.jpg">
+      <PackagePath>Assets\basil.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\bed wetting.jpg">
+      <PackagePath>Assets\bed wetting.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\bitter gourd.jpg">
+      <PackagePath>Assets\bitter gourd.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\black eye.jpg">
+      <PackagePath>Assets\black eye.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\blister.jpg">
+      <PackagePath>Assets\blister.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\boil.jpg">
+      <PackagePath>Assets\boil.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\bruise.jpg">
+      <PackagePath>Assets\bruise.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\burns.jpg">
+      <PackagePath>Assets\burns.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\cabbage.jpg">
+      <PackagePath>Assets\cabbage.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\cardamom.jpg">
+      <PackagePath>Assets\cardamom.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\carrot1.jpg">
+      <PackagePath>Assets\carrot1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\castoroil.jpg">
+      <PackagePath>Assets\castoroil.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\cherry.jpg">
+      <PackagePath>Assets\cherry.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\chicken pox.jpg">
+      <PackagePath>Assets\chicken pox.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\cilantro.jpg">
+      <PackagePath>Assets\cilantro.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\cinnamon_bark.jpg">
+      <PackagePath>Assets\cinnamon_bark.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\clove.jpg">
+      <PackagePath>Assets\clove.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\coconut.jpg">
+      <PackagePath>Assets\coconut.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\cold sores.jpg">
+      <PackagePath>Assets\cold sores.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\comman cold.jpg">
+      <PackagePath>Assets\comman cold.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\conjuctivitis.jpg">
+      <PackagePath>Assets\conjuctivitis.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\constipation.jpg">
+      <PackagePath>Assets\constipation.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\coriandder.jpg">
+      <PackagePath>Assets\coriandder.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\coriander_1.jpg">
+      <PackagePath>Assets\coriander_1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\cough.jpg">
+      <PackagePath>Assets\cough.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\cranberry.jpg">
+      <PackagePath>Assets\cranberry.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\Cucumber.jpg">
+      <PackagePath>Assets\Cucumber.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\Cumin_seeds.jpg">
+      <PackagePath>Assets\Cumin_seeds.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\currants.jpg">
+      <PackagePath>Assets\currants.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\currants_1.jpg">
+      <PackagePath>Assets\currants_1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\dandruff.jpg">
+      <PackagePath>Assets\dandruff.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\dates.jpg">
+      <PackagePath>Assets\dates.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\dates_1.jpg">
+      <PackagePath>Assets\dates_1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\dengue.jpg">
+      <PackagePath>Assets\dengue.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\depression1.jpg">
+      <PackagePath>Assets\depression1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\Diabetes.jpg">
+      <PackagePath>Assets\Diabetes.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\dry lips.jpg">
+      <PackagePath>Assets\dry lips.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\dry skin.jpg">
+      <PackagePath>Assets\dry skin.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\egg.jpg">
+      <PackagePath>Assets\egg.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\fatigue1.jpg">
+      <PackagePath>Assets\fatigue1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\fenugreek-seeds.jpg">
+      <PackagePath>Assets\fenugreek-seeds.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\fever.jpg">
+      <PackagePath>Assets\fever.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\garlic.jpg">
+      <PackagePath>Assets\garlic.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\ginger.jpg">
+      <PackagePath>Assets\ginger.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\gooseberry.jpg">
+      <PackagePath>Assets\gooseberry.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\hangover.jpg">
+      <PackagePath>Assets\hangover.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\hbc.jpg">
+      <PackagePath>Assets\hbc.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\headache.jpg">
+      <PackagePath>Assets\headache.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\honey.jpg">
+      <PackagePath>Assets\honey.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\honey_1.jpg">
+      <PackagePath>Assets\honey_1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\jet lag.jpg">
+      <PackagePath>Assets\jet lag.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\Lemon.jpg">
+      <PackagePath>Assets\Lemon.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\licorice-root.jpg">
+      <PackagePath>Assets\licorice-root.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\licorice.jpg">
+      <PackagePath>Assets\licorice.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\mango.jpg">
+      <PackagePath>Assets\mango.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\milk products.jpg">
+      <PackagePath>Assets\milk products.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\milkproducts.jpg">
+      <PackagePath>Assets\milkproducts.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\mustard.jpg">
+      <PackagePath>Assets\mustard.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\neem.jpg">
+      <PackagePath>Assets\neem.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\oat.jpg">
+      <PackagePath>Assets\oat.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\oat1.jpg">
+      <PackagePath>Assets\oat1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\onion.jpg">
+      <PackagePath>Assets\onion.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\orange.jpg">
+      <PackagePath>Assets\orange.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\orange_1.jpg">
+      <PackagePath>Assets\orange_1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\papaya.jpg">
+      <PackagePath>Assets\papaya.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\petroleum-jelly-moisturizer-1.jpg">
+      <PackagePath>Assets\petroleum-jelly-moisturizer-1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\petroleum.jpg">
+      <PackagePath>Assets\petroleum.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\pineapple.jpg">
+      <PackagePath>Assets\pineapple.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\potato.jpg">
+      <PackagePath>Assets\potato.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\red-Apple.jpg">
+      <PackagePath>Assets\red-Apple.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\sandalwood.jpg">
+      <PackagePath>Assets\sandalwood.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\seasame.jpg">
+      <PackagePath>Assets\seasame.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\spinach.jpg">
+      <PackagePath>Assets\spinach.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\tea.jpg">
+      <PackagePath>Assets\tea.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\tree-neem.jpg">
+      <PackagePath>Assets\tree-neem.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\turmeric.jpg">
+      <PackagePath>Assets\turmeric.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\vinegar.jpg">
+      <PackagePath>Assets\vinegar.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\walnut 1.jpg">
+      <PackagePath>Assets\walnut 1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\Assets\walnuts.jpg">
+      <PackagePath>Assets\walnuts.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\bin\x64\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\bin\x64\Debug\Zest.xaml">
+      <PackagePath>Zest.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\bin\x64\Debug\Home.xaml">
+      <PackagePath>Home.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\bin\x64\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\bin\x64\Debug\ItemsPage.xaml">
+      <PackagePath>ItemsPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\bin\x64\Debug\SplitPage.xaml">
+      <PackagePath>SplitPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shahj_000\Documents\Visual Studio 2012\Projects\HomeRemedies\HomeRemedies\bin\x64\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
